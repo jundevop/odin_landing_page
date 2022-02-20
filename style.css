@@ -5,3 +5,40 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+    background: #1F2937;
+}
+
+.lower_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 16px;
+  }
+  
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
